@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  .main.container
+    .row
+      .col-md-6.col-md-offset-3
+        h1.display-4.m-b-2 Welcome #{user.fname}
+        table
+         tr
+          th fname
+          td #{user.fname}
+          th lname
+          td #{user.lname}
+          tr
+          th email
+          td #{user.email}
+          th password
+          td #{user.password}
+          tr
+          th Number
+          td #{user.phoneNumber}
+          tr
+          th dob
+          td #{user.dob}
+          tr
+          th Regiter Date
+          td #{user.regDate}
